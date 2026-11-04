@@ -196,7 +196,7 @@ async def find_free(mood: str, seconds: float, pid: str) -> dict | None:
     words = _words(mood)
     terms = [w for w in VOCAB if w in words] or ["upbeat"]
     speed = "speed_high" if words & FAST else "speed_low" if words & SLOW else ""
-    async with httpx.AsyncClient(timeout=30, follow_redirects=True, headers={"User-Agent": "AutoClipStudio (+https://github.com/thihodev/autoclip-studio)"}) as c:
+    async with httpx.AsyncClient(timeout=30, follow_redirects=True, headers={"User-Agent": "AutoClipStudio (+https://github.com/openyard-cloud/autoclip-studio)"}) as c:
         for q in [" ".join(terms[:2]), *terms[:3]]:
             results = []
             for page in (1, 2):  # anonymous requests get at most 20 a page

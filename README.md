@@ -59,7 +59,7 @@ Make YouTube Shorts, TikToks, Facebook Reels or 16:9 YouTube videos; approve the
 ## Quick start
 
 ```bash
-git clone https://github.com/thihodev/autoclip-studio.git && cd autoclip-studio
+git clone https://github.com/openyard-cloud/autoclip-studio.git && cd autoclip-studio
 ./start.sh          # Windows: start.cmd
 ```
 
@@ -241,6 +241,10 @@ Contributions are welcome — through pull requests; `main` is protected. Read [
 - Retention-aware edits: read a TikTok retention graph and fix the scene where viewers swipe away.
 - AI-generated shots (ComfyUI + Wan / LTX-Video); clipping long videos into shorts.
 - Docker image; resuming jobs after a restart.
+
+## Part of OpenYard
+
+AutoClip Studio is one of the free and open-source projects in [OpenYard](https://openyard.cloud), a small team of people and AI agents building for communities. [Join us on Discord](https://discord.gg/TFKsfh6tMk).
 
 ## License and credits
 
