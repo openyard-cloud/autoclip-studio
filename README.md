@@ -13,6 +13,8 @@
   <a href="LICENSE">MIT</a>
 </p>
 
+<p align="center"><a href="https://openyard.cloud/p/autoclip-studio#check"><img alt="OpenYard code check" src="https://openyard.cloud/badge/autoclip-studio.svg"></a></p>
+
 **Open-source studio that turns a topic, a website or a GitHub repo into a finished short video — planned with you, then written, voiced, designed and animated by Claude and edited by you. Paste a TikTok or YouTube link and it makes yours in the same format; turn the videos you like into templates for a whole series. A web UI for everything.**
 
 Make YouTube Shorts, TikToks, Facebook Reels or 16:9 YouTube videos; approve the idea — title, hook and scene list — before anything is made; learn the format of a video you like from its link; review them frame by frame; let Claude apply your comments; change any text, image, caption, font or color yourself, checked for layout and readability before each render; save a video as a template and make the next episodes from a list, in minutes and without designing again; export the video — or its layers for CapCut, Premiere and DaVinci — with a caption, hashtags and a cover. It runs on your own computer and uses your own Claude account (subscription or API key). No `.env`, no Docker: every connection is made from the UI.
